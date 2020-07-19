@@ -1,0 +1,478 @@
+
+body{
+
+    
+    background-image:linear-gradient(45deg,white, powderblue,white);
+}
+
+
+.navbar-brand{
+
+
+    margin-left: 300px;
+}
+
+.header .navbar{
+
+    background-color:#21B573!important;
+}
+
+.header img{
+
+    height:50px;
+    width:50px;
+}
+
+.idea{
+
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+    color: ivory;
+}
+.nav-item{
+
+    margin-left: 12px;
+
+}
+
+.nav-link{
+
+    color: ivory!important;
+}
+
+
+
+
+
+    
+#top-player{
+
+
+    margin-top:50px;
+
+   
+}
+
+
+.grid{
+
+    display:grid;
+    grid-gap: 20px;
+    grid-template-columns: 350px 350px 350px;
+    
+}
+
+.article{
+
+    
+    display: inline-flex;
+
+    
+}
+
+.article img{
+
+    height: 50px;
+    width:50px;
+    margin-right: 15px;
+}
+
+.container .top{
+
+    margin-bottom: 30px;
+    margin-left:5px;
+    color:#21B573;
+
+}
+
+.article h4{
+
+    margin-top:10px;
+    font-size: 18px;
+}
+
+.line{
+
+    background-color:#9F9F9F;
+}
+
+#card1{
+
+    height:170px!important;
+    width:600px!important;
+   
+    background-image: linear-gradient(45deg,powderblue,white);
+
+    border-radius: 10px;
+   
+  
+    
+}
+
+#card1 img{
+    height:170px;
+    width:230px ;
+   padding: 5px 5px;
+}
+#card-body1{
+
+    width:300px;
+    margin-left: 20px;
+    padding:10px 10px;
+}
+
+#card-body1 h5{
+
+    margin-left:30px;
+}
+
+#card-body1 p{
+
+    margin-left:30px;
+
+}
+
+.name{
+     
+   color: #21B573;
+   font-weight: 600;
+
+}
+
+.author{
+
+    color:#9F9F9F;
+}
+
+#blog{
+
+   margin-bottom: 10px;
+}
+
+
+
+.card-deck{
+
+    width:950px;
+    
+}
+
+#card-new{
+
+
+    
+    box-shadow: gray 5px 10px 10px;
+    border-radius: 5px;
+
+}
+
+.latest-course{
+
+    margin-bottom: 30px;
+    color:#21B573;
+}
+
+.writer{
+
+    color:#ec6969;
+    font-weight: 600;
+    
+}
+
+.card-footer .star img{
+
+    height:15px;
+    width: 20px;
+}
+   
+.card-footer .time img{
+
+    height:10px;
+    width:14px;
+}
+
+.hour{
+
+    font-size: 14px;
+    color: #31742e;
+}
+
+.time{
+    background-color: rgb(163, 228, 163, .4);
+    border-radius: 20px;
+}
+
+.rating{
+
+    color:#9F9F9F;
+    font-weight: 700;
+
+}
+
+.card-footer{
+    border:none;
+   background-color: white;
+}
+
+footer{
+
+    text-align: center;
+    margin-top:60px;
+    
+}
+
+@media (max-width:450px){
+
+    
+    .grid{
+    
+    
+        display: flex;
+        flex-direction: column;
+
+  
+        
+       
+
+    
+       
+    }
+}
+
+
+@media (max-width:450px){
+
+    .navbar-brand{
+
+        position: absolute;
+        top:0px;
+        left:-160px;
+    }
+
+  #card1{
+
+     
+    display: flex;
+    flex-direction: unset;
+    
+
+  }
+
+
+
+
+
+
+}
+
+
+
+@media(max-width:450px){
+
+    
+    #card1 img {
+    
+    
+
+        
+        width:30%;
+        height:120px;
+        margin-left:px;
+      
+
+            
+        
+       
+
+    
+       
+    }
+    }
+
+    @media (max-width:450px){
+
+    
+        .small-device{
+
+        
+           position: absolute;
+           left: -140px;
+           top:50px;
+
+          
+    
+        
+           
+        }
+        }
+
+        @media(max-width:450px){
+
+               #card-new 
+            {
+            
+            
+
+                width:400px;
+         
+        
+                    
+                
+               
+        
+            
+               
+            }
+            }
+
+
+            @media(max-width:600px){
+
+    
+                .grid{
+                
+                
+                    display: flex;
+                    flex-direction: column;
+            
+              
+                    
+                   
+            
+                
+                   
+                }
+                }
+            
+                @media(max-width:600px){
+            
+                
+                    #card-body1 {
+                    
+                    
+                      position: absolute;
+                      top:-170px;
+                      left:200px;
+                
+                            
+                        
+                       
+                
+                    
+                       
+                    }
+                    }
+            
+                    @media(max-width:600px){
+            
+                           #card-new 
+                        {
+                        
+                        
+            
+                            width:400px;
+                     
+                    
+                                
+                            
+                           
+                    
+                        
+                           
+                        }
+                        }
+
+
+
+                        
+            @media(min-width:700px)and (max-width:1050px){
+
+    
+                .grid{
+                
+                
+                    display: flex;
+                    flex-direction: column;
+            
+              
+                    
+                   
+            
+                
+                   
+                }
+                }
+            
+                @media (min-width:700px) and (max-width:1050px){
+
+
+                .small-device h5{
+
+                    font-size: 15px;
+                }
+
+                .small-device p{
+
+                    font-size: 12px;
+                }
+            
+                
+                    .small-device{
+
+                        line-height: 15px;
+                           
+                        position: absolute;
+                        left:-5px;
+
+
+                    }
+                    }
+
+                    @media (min-width:700px) and (max-width:1050px){
+
+
+                
+            
+                
+                        #card1 img {
+                        
+                        
+                         
+                                
+                            width:100px;
+                            height: 100px;
+                           
+                    
+                        
+                           
+                        }
+                        }
+
+
+
+            
+                    @media(max-width:800px){
+            
+                           #card-new 
+                        {
+                        
+                        
+            
+                            width:400px;
+                     
+                    
+                                
+                            
+                           
+                    
+                        
+                           
+                        }
+                        }
+    
+
+
+
+
+
