@@ -9,8 +9,15 @@ body{
 .navbar-brand{
 
 
-    margin-left: 300px;
+    margin-left:110px;
+
+} 
+
+#navbarNav{
+
+    margin-right: 260px;
 }
+
 
 .header .navbar{
 
